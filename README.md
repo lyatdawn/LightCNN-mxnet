@@ -35,7 +35,7 @@ You could change some arguments in the train.py, like num_epochs, gpus. If want 
 ## Downloading trained model
 * Pretrained model: [download](https://drive.google.com/open?id=1JTneCiIZfITyg_Z2T96WY0hA84BnRDSk). Training about 50 epoches use 10k people, the loss has converged. But the accuracy on the aligned LFW datasets is not high, about 85%. 
 
-Some improved solutions:
+* Some improved solutions:
  - Change the optimizer method, like: when loss doesn't decrease, manually decrease it to 10 time smaller.
  - Improved by manaully aligning the images which are mis-algined in LFW datasets.
  - Improved by using metric learning method for similarity caculation, not just cos value.
