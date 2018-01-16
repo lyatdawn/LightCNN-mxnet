@@ -1,0 +1,4 @@
+# requirements
+mxnet
+opencv
+MATLAB
