@@ -38,4 +38,5 @@ You could change some arguments in the train.py, like num_epochs, gpus. If want 
 * Some improved solutions:
  1. Change the optimizer method, like: when loss doesn't decrease, manually decrease it to 10 time smaller.
  2. Improved by manaully aligning the images which are mis-algined in LFW datasets.
- 3. Improved by using metric learning method for similarity caculation, not just cos value.
+ 3. Utilize a new feature of a image, for example use mfm_fc1_output as a image's feature, it will increase the accuracy in LFW.
+ 4. Improved by using metric learning method for similarity caculation, not just cos value.
