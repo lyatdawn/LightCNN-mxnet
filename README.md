@@ -1,4 +1,4 @@
-# Light CNN for Deep Face Recognition.
+# Light CNN for Deep Face Recognition
 * mxnet implementation of LightCNN in the paper "A Light CNN for Deep Face Representation with Noisy Labels" [[Paper]](https://arxiv.org/abs/1511.02683)
 * Borrowed code and ideas from yxu0611's Tensorflow-implementation-of-LCNN: https://github.com/yxu0611/Tensorflow-implementation-of-LCNN.
 
