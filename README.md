@@ -33,7 +33,9 @@ You could change some arguments in the train.py, like num_epochs, gpus. If want 
  * Utilize MATLAB to run the lfw_eval.m to verificate a pair of images. You must generate the features of the aligned LFW datasets in advance. See **lfw_verification-matlab/lfw_eval.m** for details. 
 
 ## Downloading trained model
-* Pretrained model: [download](https://drive.google.com/open?id=1JTneCiIZfITyg_Z2T96WY0hA84BnRDSk). Training about 50 epoches use 10k people, the loss has converged. But the accuracy on the aligned LFW datasets is not high, about 85%. Some improved solutions:
-* Change the optimizer method, like: when loss doesn't decrease, manually decrease it to 10 time smaller.
-* Improved by manaully aligning the images which are mis-algined in LFW datasets.
-* Improved by using metric learning method for similarity caculation, not just cos value.
+* Pretrained model: [download](https://drive.google.com/open?id=1JTneCiIZfITyg_Z2T96WY0hA84BnRDSk). Training about 50 epoches use 10k people, the loss has converged. But the accuracy on the aligned LFW datasets is not high, about 85%. 
+
+Some improved solutions:
+ - Change the optimizer method, like: when loss doesn't decrease, manually decrease it to 10 time smaller.
+ - Improved by manaully aligning the images which are mis-algined in LFW datasets.
+ - Improved by using metric learning method for similarity caculation, not just cos value.
