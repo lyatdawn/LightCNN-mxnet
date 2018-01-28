@@ -4,7 +4,7 @@
 
 ## Install Required Packages
 First ensure that you have installed the following required packages:
-* mxnet0.12.0 ([instructions](https://www.tensorflow.org/install/)). Maybe other version is ok.
+* mxnet0.12.0 ([instructions](http://mxnet.incubator.apache.org/install/index.html)). Maybe other version is ok.
 * Opencv ([instructions](https://github.com/opencv/opencv)). Here is opencv-2.4.9.
 
 See requirements.txt for details.
